@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+footer{
+    background-color: gray; height: 56px; display: flex; justify-content: center; align-items: center;
+}
+header{
+    background-color: rgb(50, 47, 47); color: white; height: 66px; display: flex; flex-direction: row;
+}
+nav{
+    display: flex;
+}
+.icon{
+    display:flex; height: 45px; width: 56px; color: white;
+}
+.poio{
+    width: 258px;
+    height: 92px;
+    margin: 0px 34px;
+}
+ 
+
+nav ul {
+    height: 45px; display: flex; justify-content: flex-start; align-items: center;
+}
+nav ul li{
+    list-style: none; padding: 0 23px;
+}
+nav ul li a{
+     color: white; text-decoration: none;
+}
+nav ul li a:hover{
+    color: rgb(16, 7, 7); font-style:  bold;
+}
+._anan{
+    width: 1066px;
+}
+._rtyu{
+    display: flex; flex-direction: column; text-decoration: none; color: white; width: 164px; margin: -8px -3px;
+    align-items: center;
+}
+.nav-line1{
+    
+    font-size: 16px;
+}
+.nav-line2{
+    
+    font-size: 18px;
+}
+
+
+._erty{
+    height: 16px;
+    width: 18px;
+    background-color: white;
+}
+.search{
+    display: flex; align-items: center; padding: 14px 187px;
+}
+.search input{
+    width: 538px; height: 34px; border-radius: 5px; margin: 0 8px 0 43px;border: 3px solid black;
+}
+._abhi{
+    width: 108px;  height: 35px; margin: 0px auto -21px
+}
+._abhi:hover{
+      color: white; font-style: bolder;
+}
+._asdf{
+    margin: 43px;text-decoration: none; color: white; font-size: 24px;
+}
+.container{
+    height: 200vh; width: 1542px;
+}
